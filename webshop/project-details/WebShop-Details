@@ -1,0 +1,58 @@
+MODUELS & REQUIREMENTS:
+=======================
+1. REGISTRATION
+	1.1 Registration page 
+	
+2. LOGIN
+	2.1 Home page with login & sign up.
+
+3. ORDER
+	3.1 Order Page
+
+4. PAYMENT
+
+5. ORDER PROCESSING
+
+6. DELIVERY
+
+TECHNOLOGIES: JSP, Java 1.8, Spring Framework, Hibernate
+DATABASE: MySQL 5.1
+SERVER: Tomcat 7
+TOOLS: Eclipse IDE (Mars)
+
+
+CONCEPTS IMPLEMENTED:
+=====================
+SPRING FRAMEWORK:
+-----------------
+CORE:
+	1. Dependency Injection : Setter, Constructor
+	2. Bean Scopes:  
+
+JDBC:
+
+MVC:
+	
+JAVA 8:
+------
+	1) Lambdas		
+	2. Streams
+		2.1. Functions (sum, average, min, max, first, last)
+		2.2. Collectors
+		2.3. Map (mapToInt)
+	3. forEach
+
+HIBERNATE:
+---------
+
+JSP:
+----
+	
+	
+DATABASE:
+--------
+	1) Inner Join
+	2) Outer Join
+
+
+

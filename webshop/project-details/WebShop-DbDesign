@@ -1,0 +1,39 @@
+TABLES & COLUMNS:
+
+LOGIN:
+	userid : string,
+	username: varchar
+	password: varchar
+	lastlogin : date
+	
+USER:
+	id: varchar (auto-generated)
+	type: varchar
+	firstname: varchar
+	lastname: varchar
+	email: varchar
+	address: varchar
+	phone: int
+
+ORDER:
+	userid: varchar
+	orderid: varchar
+	productid: varchar
+	orderdate: date
+	delivery_date: date
+	delivery_status: 
+
+PRODUCT:
+	id: varchar
+	name: varchar
+	price: double
+	stock: int
+	
+SELLER:
+	id: varchar
+	name: varchar
+	email: varchar
+	address: varchar
+	phone: varchar
+
+
