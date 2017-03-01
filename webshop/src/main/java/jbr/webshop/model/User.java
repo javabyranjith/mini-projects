@@ -5,13 +5,21 @@ import jbr.webshop.util.enums.UserType;
 public class User {
 
   private String id;
-  private UserType type;
+  private UserType usertype;
   private Login login;
   private String firstname;
   private String lastname;
   private String email;
   private String address;
   private int phone;
+
+  public UserType getUsertype() {
+    return usertype;
+  }
+
+  public void setUsertype(UserType usertype) {
+    this.usertype = usertype;
+  }
 
   public Login getLogin() {
     return login;
@@ -27,14 +35,6 @@ public class User {
 
   public void setId(String id) {
     this.id = id;
-  }
-
-  public UserType getType() {
-    return type;
-  }
-
-  public void setType(UserType type) {
-    this.type = type;
   }
 
   public String getFirstname() {

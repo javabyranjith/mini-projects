@@ -28,7 +28,7 @@
 
 			<tr></tr>
 			<tr>
-				<td></td>s
+				<td></td>
 				<td><a href="home.jsp">Home</a></td>
 			</tr>
 		</table>
